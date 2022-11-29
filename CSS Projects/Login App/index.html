@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login App</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>    
+<div class="container"> 
+        <h1>Login Interface</h1>
+        <input type="radio" id="login" name="tab" checked>
+        <input type="radio" id="register" name="tab" >
+        <input type="radio" id="reset" name="tab">
+
+        <nav>
+            <label for="login" class="login">
+                <i class="fas fa-sign-in-alt"></i>Login
+            </label>
+            <label for="register" class="register">
+                <i class="fas fa-user-circle"></i>Register
+            </label>
+            <label for="reset" class="reset">
+                <i class="fas fa-share-square"></i>Reset
+            </label>
+            <div class="slide"></div>
+        </nav>
+
+        <!-- CONTENT SECTION -->
+         <!-- CONTENT SECTION -->
+          <!-- CONTENT SECTION -->
+
+        <section>
+            <div class="content content-login">
+                <i class="fas fa-user-tie"></i>
+                 <h2>Sign In</h2>
+
+                 <form action="">
+                     <label for="user">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="user" placeholder="Username" autocomplete="off" required>
+                     </label>
+
+                     <label for="pass">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="user" placeholder="Password" autocomplete="off" required>
+                     </label>
+
+                     <div class="logged">
+                         <input type="checkbox" id="checkbox">
+                         <label for="checkbox">Stay logged in </label>
+                     </div>
+                     <button class="btn">Login</button>
+                 </form>
+            </div>
+    
+            <div class="content content-register">
+                <h2>Register</h2>
+
+                <form action="">
+                    <label for="user">
+                       <i class="fas fa-users"></i>
+                       <input type="text" id="user" placeholder="Username" autocomplete="off" required>
+                    </label>
+
+                    <label for="email">
+                        <i class="fas fa-users"></i>
+                        <input type="email" id="email" placeholder="E-mail" autocomplete="off" required>
+                     </label>
+
+                    <label for="pass">
+                       <i class="fas fa-lock"></i>
+                       <input type="password" id="user" placeholder="Password" autocomplete="off" required>
+                    </label>
+
+                    <div class="logged">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Stay logged in </label>
+                    </div>
+
+                    <button class="btn">Register</button>
+                </form>
+            </div>
+    
+            <div class="content content-reset">
+               <h2>Reset</h2>
+
+                <form>
+                <label for="email">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <input type="email" id="email" placeholder="E-mail" autocomplete="off" required>
+                 </label>
+
+                <div class="logged">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Stay logged in </label>
+                </div>
+
+                <button class="btn">Reset Password</button>
+            </form>
+            </div>
+        </section>
+    </div>
+    </header>
+</body>
+</html>
